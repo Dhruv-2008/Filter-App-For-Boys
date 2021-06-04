@@ -1,0 +1,36 @@
+.h3s{
+    width: 35%;
+    line-height: 2;
+    border-radius: 20px;
+    animation-name: Dhruv;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.btn-success:hover{
+background-color: rgb(105, 204, 105);
+font-size: 15px;
+}
+
+canvas{
+    animation-name: dhruv;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes dhruv{
+    0% {box-shadow: 1px 1px 38px rgb(241, 93, 93);}
+    25% {box-shadow: 1px 1px 38px rgb(189, 189, 46);}
+    50% {box-shadow: 1px 1px 38px blue;}
+    75% {box-shadow: 1px 1px 38px rgb(62, 189, 146);}
+    100% {box-shadow: 1px 1px 38px green;}
+}
+
+@keyframes Dhruv{
+    0% {background-color: rgb(223, 98, 98);}
+    25% {background-color: rgb(226, 226, 66);}
+    50% {background-color: rgb(160, 160, 229);}
+    75% {background-color: rgb(62, 189, 146);}
+    80% {background-color: rgb(54, 83, 211);}
+    100% {background-color: rgb(18, 194, 18);}
+}
